@@ -10,8 +10,11 @@ $ docker run -ti ubuntu bash
 
 root@62deec4411da:/# pwd
 /
+
 $ docker container run -t ubuntu top
+
 $ docker run ubuntu ps –ef
+
 $ docker exec -it <mycontainerID> bash
 
 # Stop, remove/prune etc.
