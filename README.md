@@ -31,7 +31,7 @@ https://hub.docker.com/r/tutum/hello-world
 
 `$ sudo docker port d35bf1374e88 80 `
 
-output: sudo docker port c832a742ec80 80
+Output: sudo docker port c832a742ec80 80
 0.0.0.0:32768
 
 `$ curl http://localhost:32768/`
@@ -55,12 +55,15 @@ WORKDIR /home
 --> Enter docker ID/username & password after this.
 
 `$ docker build -t <imagename> .`
+
 example: docker build -t sauravubuntu .
 
 `$ docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage`
+
 example: docker tag sauravubuntu:latest sauravraiguru/ubuntu
 
 `$ docker push YOUR_DOCKERHUB_NAME/firstimage`
+
 example: docker push sauravraiguru/ubuntu
 
 -> You should see your docker image here - https://hub.docker.com/repositories
