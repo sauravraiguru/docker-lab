@@ -1,5 +1,6 @@
 # Docker-Lab
 
+## 1. Running your first container 
 https://labs.play-with-docker.com/
 
 $ docker run ubuntu echo Hello World
@@ -17,11 +18,11 @@ $ docker run ubuntu ps –ef
 
 $ docker exec -it <mycontainerID> bash
 
-# Stop, remove/prune etc.
+$ Stop, remove/prune etc.
 
 
 
-2nd-Exercise ( to expose a port )
+## 2. Exposing a port 
 https://hub.docker.com/r/tutum/hello-world
 
 $ docker pull tutum/hello-world
