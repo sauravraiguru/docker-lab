@@ -7,6 +7,7 @@ Hello World
 
 $ docker run -ti ubuntu bash 
 # (getting inside container)
+
 root@62deec4411da:/# pwd
 /
 $ docker container run -t ubuntu top
