@@ -41,11 +41,12 @@ Dockerfile:
 
 $ vi Dockerfile
 
-** PASTE BELOW ** and 'ESC' + 'wq'
+--> PASTE BELOW and 'ESC' + 'wq'
+
 FROM ubuntu:latest
 RUN apt-get update
 WORKDIR /home
-******************
+
 
 $ docker login
 --> Enter docker ID/username & password after this.
